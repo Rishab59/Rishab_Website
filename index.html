@@ -25,6 +25,35 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <style>
+    .links {
+      text-decoration: none ;
+      color: #dcc960 ;
+      position: relative ; 
+    }
+        
+    .links::before {
+      content: '' ;
+      position: absolute ;
+      bottom: 0 ;
+      left: 50% ;
+      transform: translateX(-50%) ;
+      width: 0 ;
+      height: 2px ;
+      background-color: #f29d12 ;
+      transition: width 0.3s ease ;
+    }
+
+    .links:hover {
+      color: #dcc960 ;
+    }
+
+    .links:hover::before {
+      width: 100% ;
+    }
+        
+  </style>
+
 </head>
 
 <body>
@@ -44,6 +73,7 @@
           <a href = "mailto:hrishab59@gmail.com" target = "_blank" class="outlook"><i class="bi bi-envelope-fill"></i></a>
           <a href = "https://instagram.com/ris59_2k3?igshid=ZDc4ODBmNjlmNQ==" target = "_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href = "https://www.linkedin.com/in/rishab-h-656b97224" target = "_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <!-- <a href = "https://www.hackerrank.com/hrishab59" target = "_blank" class="linkedin"><i class="bx"></i></a> -->
         </div>
       </div>
 
@@ -75,40 +105,40 @@
         <div class="section-title">
           <h2>About</h2>
           <p>
-            I'm a student of a well-known and prestigious Engineering College. 
-            I'm passionate about programming in languages such as Java, JavaScript, C and Python. 
-            I'm also interested in web development and have done projects on it. 
-            I'm excited to learn more about the field and I'm looking forward to explore new opportunities.
+            I'm a student of a well-known and prestigious Engineering College. &nbsp;
+            I'm passionate about programming in languages such as Java, JavaScript, C and Python. &nbsp;
+            I'm also interested in web development and have done projects on it. &nbsp;
+            I'm excited to learn more about the field and I'm looking forward to explore new opportunities.&nbsp;
           </p>
         </div>
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right" style = "padding-left: 40px ;">
-            <img src="assets/img/RishabImage.png" class="img-fluid" alt="Profile_Image" style = "width : auto ; height : 450px ; border-radius : 30px ; box-shadow : 0 0 20px #dcc960 ;">
+            <img src="assets/img/RishabImage.png" class="img-fluid" alt="Profile_Image" style = "width : auto ; height : auto ; border-radius : 25px ; box-shadow : 0 0 20px #dcc960 ;">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Web and Native Developer</h3>
             <div class="row">
               <div class="col-lg-7">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday :</strong> <span>14 September</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website :</strong> <span><a href = "https://rishabwebsite.netlify.app" target = "_blank" style = "color : #dcc960 ;">https://rishabwebsite.netlify.app</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone :</strong> <span>+91 7200076122</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City :</strong> <span>Chennai, India</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span> 14<sup>th</sup> September</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href = "https://rishabwebsite.netlify.app" target = "_blank" class = "links">https://rishabwebsite.netlify.app</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 7200076122</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Chennai, India</span></li>
                 </ul>
               </div>
               <div class="col-lg-5">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age :</strong> <span>19</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree :</strong> <span>B.E CSE (Pursuing)</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email :</strong> <span><a href = "mailto:hrishab59@gmail.com" target = "_blank" class="outlook">hrishab59@gmail.com</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Alternate Email :</strong> <span><a href = "mailto:hrishab59@gmail.com" target = "_blank" class="outlook">rishab.h@outlook.com</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.E CSE (Pursuing)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href = "mailto:hrishab59@gmail.com" target = "_blank" class="links">hrishab59@gmail.com</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Alternate Email:</strong> <span><a href = "mailto:hrishab59@gmail.com" target = "_blank" class="links">rishab.h@outlook.com</a></span></li>
                 </ul>
               </div>
             </div>
             <br>
             <p>
-              I'm always passionate about learning and implementing new technical skills related to computer science and working on projects to test myself and learn stuffs out of it
+              I'm always passionate about learning and implementing new technical skills related to computer science and working on projects to test myself and learn stuffs out of it.
             </p>
           </div>
         </div>
@@ -125,7 +155,7 @@
         <div class="section-title">
           <h2>Skills</h2>
           <p>
-            In the below section I have listed the technical skills that I do posses and gave rating for it accoring to my level of understanding so can cannot be very accurate but still I gave my best
+            In the below section, I have listed the technical skills that I do posses and gave rating for it accoring to my level of understanding so can cannot be very accurate but still I gave my best.
           </p>
         </div>
 
@@ -335,9 +365,9 @@
           <!-- Django + React JS  Project 1 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-django-reactjs">
             <div class="portfolio-wrap">
-              <img src="./assets/img/portfolio/ToDoListImage.jpg" class="img-fluid" alt="Notes App Fullstack Image">
+              <img src="./assets/img/portfolio/NotesAppDjangoReactJSImage.png" class="img-fluid" alt="NotesApp Django ReactJS Fullstack Image">
               <div class="portfolio-links">
-                <a href = "https://github.com/Rishab59/notesapp-fullstack" target = "_blank" title = "Notes App Fullstack"><i class="bx bx-link"></i></a>
+                <a href = "https://github.com/Rishab59/notesapp-fullstack" target = "_blank" title = "NotesApp Django ReactJS Fullstack"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
